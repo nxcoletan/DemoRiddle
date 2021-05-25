@@ -11,14 +11,12 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
     Button btnRevealQ1;
     Button btnRevealQ2;
-    TextView tvQ1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        tvQ1 = findViewById(R.id.textViewQ1);
         btnRevealQ1 = findViewById(R.id.buttonRevealQ1);
         btnRevealQ2 = findViewById(R.id.buttonRevealQ2);
 
